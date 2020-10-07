@@ -1,0 +1,9 @@
+[package]
+name = "head_req"
+version = "0.1.0"
+authors = ["austinabell <austinabell8@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+async-std = { version = "1.6.5", features = ["attributes"] }
+surf = "2.0"
